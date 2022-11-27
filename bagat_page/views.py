@@ -7,4 +7,4 @@ def starting_page(request):
     return render(request, "bagat_page/index.html")
 
 def info(request):
-    return HttpResponse("bebebebe")
+    return render(request, "bagat_page/info.html")
