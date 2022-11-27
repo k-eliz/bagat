@@ -12,6 +12,13 @@
 <body>
     <header id ="main-navigation">
         <h1><a href="{% url 'starting-page' %}">BAGAT</a></h1>
+        <nav>
+            <a href="{% url 'info' %}">Information about our company</a>
+            <a href="{% url 'advantages' %}">Our advantages</a>
+            <a href="{% url 'priority-directions' %}">Priority directions</a>
+        
+        </nav>
+
     </header>
     {% block content %}
     {% endblock %}

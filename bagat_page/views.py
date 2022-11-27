@@ -11,3 +11,6 @@ def info(request):
 
 def advantages(request):
     return render(request, "bagat_page/advantages.html")
+
+def priority_directions(request):
+    return render(request, "bagat_page/priority_directions.html")
