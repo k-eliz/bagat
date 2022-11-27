@@ -4,4 +4,7 @@ from django.http import HttpResponse
 # Create your views here.
 
 def starting_page(request):
-    return HttpResponse("Hello")
+    return render(request, "bagat_page/index.html")
+
+def info(request):
+    return HttpResponse("bebebebe")
